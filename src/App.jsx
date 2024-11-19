@@ -68,13 +68,23 @@ const App = () => {
         <section className='w-full bg-softCream p-4 text-seaGreen rounded-xl my-4 shadow-md border-2 border-seaGreen'>
           <h1 className='text-2xl font-semibold mb-4'>Projects</h1>
 
-          <h2 className='text-1xl font-semibold'>Snake Game</h2>
-          <p className='text-sm'>Simple traditional snake game made using <p className='inline font-bold'>HTML </p>
-            and <p className='inline font-bold'>JS</p>.</p>
+          <div>
+            <h2 className='text-1xl font-semibold'>Snake Game <button className='inline'> ...</button></h2>
+            <p className='text-sm mt-2'>Traditional snake game made using <p className='inline font-bold'>HTML </p>
+              and <p className='inline font-bold'>JS</p>.</p>
+          </div>
 
-          <h2 className='text-1xl font-semibold mt-4'>Mölkky</h2>
-          <p className='text-sm'>Scoring mobile app for traditional Finnish mölkky -game, made using <p className='inline font-bold'>React Native </p>
-            and <p className='inline font-bold'>TS</p>.</p>
+          <h2 className='text-1xl font-semibold mt-4'>Mölkky <button className='inline'> ...</button></h2>
+          <div>
+            <p className='text-sm mt-2'>Scoring mobile app for traditional Finnish mölkky -game, made using <p className='inline font-bold'>React Native </p>
+              and <p className='inline font-bold'>TS</p>.</p>
+          </div>
+
+          <div>
+            <h2 className='text-1xl font-semibold mt-4'>BMI Calculator <button className='inline'> ...</button></h2>
+            <p className='text-sm mt-2'>Body mass index calculator made using <p className='inline font-bold'>React</p> and
+              <p className='inline font-bold'> TS</p></p>
+          </div>
         </section>
 
         {/* Contact */}
