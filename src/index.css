@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 body {
-    background-color: #000000;
+    background: linear-gradient(to right, #006A67 58%, #FFF4B7 42%);
+    /* Varmistaa varavärin */
     min-height: 100vh;
     margin: 0;
     /* Poistaa mahdolliset marginaalit */
     padding: 0;
     /* Poistaa mahdolliset paddingit */
+    overflow: hidden;
 }

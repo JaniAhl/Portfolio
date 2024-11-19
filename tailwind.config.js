@@ -12,10 +12,10 @@ export default {
       colors: {
         deepBlue: '#000B58',
         darkTeal: '#003161',
-        seaGreen: '#00FF00',
+        seaGreen: '#006A67',
         softCream: '#FFF4B7',
       },
     },
   },
-  plugins: [],
-}
+  plugins: [], // Siirretty ulos theme-objektista
+};
