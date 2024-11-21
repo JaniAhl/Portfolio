@@ -16,7 +16,18 @@ const Projects = () => {
             <section className='w-full bg-softCream p-4 text-seaGreen rounded-xl my-4 shadow-md border-2 border-seaGreen'>
 
                 <div>
-                    <h2 className='text-1xl font-bold'>Snake Game
+                    <h2 className='text-1xl font-bold'>Portfolio
+                        <a href='https://github.com/JaniAhl/Portfolio' target='_blank' rel='noopener noreferrer'
+                            className='border-seaGreen text-seaGreen ml-2'>
+                            <FontAwesomeIcon icon={faGithub} className='text-2xl' />
+                        </a>
+                    </h2>
+                    <p className='text-sm mt-2'>This portfolio, made using<p className='inline font-bold'> React</p>
+                        ,<p className='inline font-bold'> JS</p> and<p className='inline font-bold'> TailwindCSS</p>.</p>
+                </div>
+
+                <div>
+                    <h2 className='text-1xl font-bold mt-4'>Snake Game
                         <a href='https://github.com/JaniAhl/snakegame' target='_blank' rel='noopener noreferrer'
                             className='border-seaGreen text-seaGreen ml-2'>
                             <FontAwesomeIcon icon={faGithub} className='text-2xl' />
