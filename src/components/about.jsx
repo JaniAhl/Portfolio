@@ -18,12 +18,33 @@ const About = () => {
                         <p className='font-bold'>Haaga-Helia University of Applied Sciences</p> </p>
                 </div>
 
-                <div>
-                    <h2 className='text-1xl font-bold mb-2 mt-4'>PROGRAMMING LANGUAGES</h2>
-                </div>
-            </section>
+                <div className='flex flex-col w-full h-full'>
 
-        </div>
+                    <h2 className='text-1xl font-bold mb-2 mt-4'>PROGRAMMING LANGUAGES</h2>
+
+                    <div className='w-full'>
+                        <section className='p-2 mb-2 border-b border-seaGreen'>
+                            <h3>Languages</h3>
+                        </section>
+
+                        <section className='p-2 mb-2 w-full border-b border-seaGreen'>
+                            <h3>Technologies</h3>
+                        </section>
+
+                        <section className='p-2 mb-2 w-full border-b border-seaGreen'>
+                            <h3>Other</h3>
+                        </section>
+
+                        <section className='p-2 mb-2 w-full border-b border-seaGreen'>
+                            <h3>2nd other</h3>
+                        </section>
+
+                    </div>
+
+                </div>
+            </section >
+
+        </div >
     )
 }
 
