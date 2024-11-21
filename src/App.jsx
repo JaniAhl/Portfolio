@@ -16,12 +16,12 @@ const App = () => {
     <div className='flex h-screen font-sans overflow-auto'  >
 
       {/* Vasemman puolen navigointi ja ikonit */}
-      < div className='flex flex-col w-3/5 items-start h-full space-y-8 bg-seaGreen' >
+      < div className='flex flex-col w-7/12 items-start h-full space-y-8 bg-seaGreen' >
         <Profile />
       </div >
 
       {/* Oikean puolen sisältö */}
-      < div className='flex flex-col w-2/5 items-center h-full p-3 overflow-y-auto pb-6 scroll-smooth bg-softCream' >
+      < div className='flex flex-col w-5/12 items-center h-full p-3 overflow-y-auto pb-6 scroll-smooth bg-softCream' >
 
         <Navbar />
         <About />

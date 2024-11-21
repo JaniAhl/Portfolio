@@ -4,23 +4,23 @@ const Navbar = () => {
     return (
         <div>
             {/* Navbar */}
-            <section className='space-y-4 md:space-y-0 md:space-x-8 flex flex-col md:flex-row items-center justify-center'>
+            <section className='space-y-4 font-bold md:space-y-0 md:space-x-8 flex flex-col md:flex-row items-center justify-center'>
                 <a
                     className='w-full md:w-auto box-border border-2 rounded-xl p-2 bg-softCream border-seaGreen text-seaGreen hover:bg-seaGreen hover:text-softCream text-center'
                     href='#about'>
-                    About
+                    ABOUT
                 </a>
 
                 <a
                     className='w-full md:w-auto box-border border-2 rounded-xl p-2 bg-softCream border-seaGreen text-seaGreen hover:bg-seaGreen hover:text-softCream text-center'
                     href='#projects'>
-                    Projects
+                    PROJECTS
                 </a>
 
                 <a
                     className='w-full md:w-auto box-border border-2 rounded-xl p-2 bg-softCream border-seaGreen text-seaGreen hover:bg-seaGreen hover:text-softCream text-center'
                     href='#contact'>
-                    Contact
+                    CONTACT
                 </a>
             </section>
         </div >

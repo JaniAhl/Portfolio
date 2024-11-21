@@ -21,7 +21,7 @@ const Profile = () => {
             <section className='text-left ml-4 mt-4 font-semibold text-softCream'>
                 <p>Jani Ahlstedt</p>
                 <p>Student</p>
-                <p>Espoo, Suomi</p>
+                <p>Espoo, Finland</p>
                 <p className='sm:overflow-hidden'>jani.ahlstedt@outlook.com</p>
 
                 {/* Icons */}

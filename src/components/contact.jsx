@@ -8,11 +8,11 @@ const Contact = () => {
 
     return (
 
-        <div className='w-full' id='contact'>
+        <div className='w-full text-left' id='contact'>
 
             {/* Contact */}
 
-            <h1 className='text-2xl font-bold mt-4 text-seaGreen'>Contact</h1 >
+            <h1 className='text-2xl font-bold mt-4 text-seaGreen'>CONTACT</h1 >
 
             <section className='w-full bg-softCream p-4 text-seaGreen rounded-xl my-4 shadow-md border-2 border-seaGreen'>
 
@@ -40,14 +40,6 @@ const Contact = () => {
                             <p className='flex-grow text-center break-words'>
                                 jani.ahlstedt@outlook.com
                             </p>
-                        </section>
-                    </button>
-
-
-                    <button className='rounded-xl border-seaGreen border-2 p-1 w-3/4 text-seaGreen hover:bg-seaGreen hover:text-softCream'>
-                        <section className='flex flex-row items-center'>
-                            <FontAwesomeIcon icon={faPhone} className='mr-2 text-2xl' />
-                            <p className='flex-grow text-center'>0400 253448</p>
                         </section>
                     </button>
 
