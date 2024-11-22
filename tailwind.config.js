@@ -15,7 +15,18 @@ export default {
         seaGreen: '#006A67',
         softCream: '#FFF4B7',
       },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-20deg)' },
+          '50%': { transform: 'rotate(20deg)' },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
     },
   },
-  plugins: [], // Siirretty ulos theme-objektista
+  plugins: [
+    require("tailwindcss-animate"),
+  ],
 };

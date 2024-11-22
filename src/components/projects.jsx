@@ -17,7 +17,20 @@ const Projects = () => {
 
                 <div className='w-full relative border-b border-seaGreen pb-4'>
                     <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative'>
-                        PORTFOLIO WEBSITE
+                        NHL FANTASY STATISTICS PAGE <p className='inline-block hover:animate-spin'>⏳</p>
+                    </h2>
+                    <section className='text-left'>
+                        <p className='text-sm mt-2'>Website made for a fantasy league to view and compare statistics of NHL and fantasy league players and teams. Will be made using
+                            <p className='inline font-bold'> React</p>,<p className='inline font-bold'> JS</p>, <p className='inline font-bold'> Vite</p> and<p className='inline font-bold'> TailwindCSS</p>.
+                            <p className='inline'> The website will use <p className='inline font-bold'>AWS</p> backend, which is mostly done already.</p>
+                            <p className='font-semibold font-xs'> NOTE: This project is only just starting!</p></p>
+                    </section>
+                </div>
+
+
+                <div className='w-full relative border-b border-seaGreen pb-4 mt-4'>
+                    <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative'>
+                        PORTFOLIO WEBSITE <p className='inline-block hover:animate-spin'>⌛</p>
                         <a href='https://github.com/JaniAhl/Portfolio' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
@@ -32,7 +45,7 @@ const Projects = () => {
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
                     <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        SNAKE GAME
+                        SNAKE GAME <p className='inline-block hover:animate-wiggle'>✅</p>
                         <a href='https://github.com/JaniAhl/snakegame' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
@@ -48,7 +61,7 @@ const Projects = () => {
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
                     <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        BMI CALCULATOR
+                        BMI CALCULATOR <p className='inline-block hover:animate-wiggle'>✅</p>
                         <a href='https://github.com/JaniAhl/bmicalc' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
@@ -65,7 +78,7 @@ const Projects = () => {
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
                     <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        MÖLKKY
+                        MÖLKKY <p className='inline-block hover:animate-wiggle'>✅</p>
                         <a href='https://github.com/JaniAhl/Molkky' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
