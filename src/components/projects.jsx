@@ -45,7 +45,7 @@ const Projects = () => {
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
                     <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        SNAKE GAME <p className='inline-block hover:animate-wiggle'>✅</p>
+                        SNAKE GAME <p className='inline-block hover:animate-tada'>✅</p>
                         <a href='https://github.com/JaniAhl/snakegame' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
@@ -61,7 +61,7 @@ const Projects = () => {
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
                     <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        BMI CALCULATOR <p className='inline-block hover:animate-wiggle'>✅</p>
+                        BMI CALCULATOR <p className='inline-block hover:animate-tada'>✅</p>
                         <a href='https://github.com/JaniAhl/bmicalc' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
@@ -78,7 +78,7 @@ const Projects = () => {
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
                     <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        MÖLKKY <p className='inline-block hover:animate-wiggle'>✅</p>
+                        MÖLKKY <p className='inline-block hover:animate-tada'>✅</p>
                         <a href='https://github.com/JaniAhl/Molkky' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
