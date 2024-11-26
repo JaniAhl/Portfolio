@@ -7,14 +7,6 @@ html {
     scrollbar-color: #006A67 #f1f1f1;
 }
 
-body {
-    background: linear-gradient(to right, #006A67 58%, #FFF4B7 42%);
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
-}
-
 ::-webkit-scrollbar {
     width: 10px;
 }

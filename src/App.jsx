@@ -21,7 +21,7 @@ const App = () => {
       </div >
 
       {/* Oikean puolen sisältö */}
-      < div className='flex flex-col w-5/12 items-center h-full p-3 overflow-y-auto pb-6 scroll-smooth bg-softCream' >
+      < div className='flex flex-col w-5/12 items-center h-full p-3 overflow-y-auto pb-6 scroll-smooth bg-softCream border-l-2 border-black' >
 
         <Navbar />
         <About />

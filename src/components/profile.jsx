@@ -20,6 +20,7 @@ const Profile = () => {
 
                 {/* Info */}
                 <section className='text-left ml-4 mt-4 font-semibold text-softCream'>
+                    {/* Animations might be deleted later */}
                     <p className='opacity-0 animate-fadeinup'>Jani Ahlstedt</p>
                     <p className='opacity-0 animate-fadeinright'>Student</p>
                     <p className='opacity-0 animate-fadeinleft'>Espoo, Finland</p>
@@ -30,10 +31,10 @@ const Profile = () => {
                         <a href='https://www.github.com/JaniAhl' target='_blank' rel='noopener noreferrer'>
                             <FontAwesomeIcon icon={faSquareGithub} className='text-3xl hover:text-softCream' />
                         </a>
-                        <a href="https://www.linkedin.com/in/jani-ahlstedt-4490a82a5/" target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.linkedin.com/in/jani-ahlstedt-4490a82a5/' target='_blank' rel='noopener noreferrer'>
                             <FontAwesomeIcon icon={faLinkedin} className='text-3xl hover:text-softCream' />
                         </a>
-                        <a>
+                        <a href='mailto:jani.ahlstedt@outlook.com'>
                             <FontAwesomeIcon icon={faSquareEnvelope} className='text-3xl hover:text-softCream' />
                         </a>
                     </section>

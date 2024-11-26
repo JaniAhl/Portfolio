@@ -16,8 +16,8 @@ const Projects = () => {
             <section className='w-full bg-softCream p-4 text-seaGreen rounded-xl my-4 shadow-md border-2 border-seaGreen'>
 
                 <div className='w-full relative border-b border-seaGreen pb-4'>
-                    <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative'>
-                        NHL FANTASY STATISTICS PAGE <p className='inline-block hover:animate-spin'>⏳</p>
+                    <h2 className='text-1xl font-bold w-full text-left relative group'>
+                        NHL FANTASY STATISTICS PAGE <p className='inline-block group-hover:animate-spin'>⏳</p>
                     </h2>
                     <section className='text-left'>
                         <p className='text-sm mt-2'>Website made for a fantasy league to view and compare statistics of NHL and fantasy league players and teams. Will be made using
@@ -29,8 +29,8 @@ const Projects = () => {
 
 
                 <div className='w-full relative border-b border-seaGreen pb-4 mt-4'>
-                    <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative'>
-                        PORTFOLIO WEBSITE <p className='inline-block hover:animate-spin'>⌛</p>
+                    <h2 className='text-1xl font-bold w-full text-left relative mt-4 group'>
+                        PORTFOLIO WEBSITE <p className='inline-block group-hover:animate-spin'>⌛</p>
                         <a href='https://github.com/JaniAhl/Portfolio' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
@@ -44,8 +44,8 @@ const Projects = () => {
 
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
-                    <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        SNAKE GAME <p className='inline-block hover:animate-tada'>✅</p>
+                    <h2 className='text-1xl font-bold w-full text-left relative mt-4 group'>
+                        SNAKE GAME <p className='inline-block group-hover:animate-tada'>✅</p>
                         <a href='https://github.com/JaniAhl/snakegame' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />
@@ -59,14 +59,15 @@ const Projects = () => {
                 </div>
 
                 <div className='w-full relative border-b border-seaGreen pb-4'>
-
-                    <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        BMI CALCULATOR <p className='inline-block hover:animate-tada'>✅</p>
-                        <a href='https://github.com/JaniAhl/bmicalc' target='_blank' rel='noopener noreferrer'
-                            className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
-                            <FontAwesomeIcon icon={faGithub} className='text-base' />
+                    <h2 className="text-1xl font-bold w-full text-left relative mt-4 group">
+                        BMI CALCULATOR
+                        <p id="checkmark" className="inline-block group-hover:animate-tada ml-2">✅</p>
+                        <a href="https://github.com/JaniAhl/bmicalc" target="_blank" rel="noopener noreferrer"
+                            className="absolute right-0 ml-2 text-seaGreen text-sm hover:text-black">
+                            <FontAwesomeIcon icon={faGithub} className="text-base" />
                         </a>
                     </h2>
+
                     <section className='text-left'>
                         <p className='text-sm mt-2'>Body mass index calculator made using <p className='inline font-bold'>React</p>,
                             <p className='inline font-bold'> Vite</p> and
@@ -77,8 +78,8 @@ const Projects = () => {
 
                 <div className='w-full relative border-b border-seaGreen pb-4'>
 
-                    <h2 className='text-1xl font-bold text-1xl font-bold w-full text-left relative mt-4'>
-                        MÖLKKY <p className='inline-block hover:animate-tada'>✅</p>
+                    <h2 className='text-1xl font-bold w-full text-left relative mt-4 group'>
+                        MÖLKKY <p className='inline-block group-hover:animate-tada'>✅</p>
                         <a href='https://github.com/JaniAhl/Molkky' target='_blank' rel='noopener noreferrer'
                             className='absolute right-0 ml-2 text-seaGreen text-sm hover:text-black'>
                             <FontAwesomeIcon icon={faGithub} className='text-base' />

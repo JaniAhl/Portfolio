@@ -34,14 +34,14 @@ const Contact = () => {
                         </section>
                     </a>
 
-                    <button className='rounded-xl border-seaGreen border-2 p-1 w-3/4 text-seaGreen hover:bg-seaGreen hover:text-softCream'>
+                    <a href='mailto:jani.ahlstedt@outlook.com' className='rounded-xl border-seaGreen border-2 p-1 w-3/4 text-seaGreen hover:bg-seaGreen hover:text-softCream'>
                         <section className='flex flex-row items-center overflow-hidden'>
                             <FontAwesomeIcon icon={faEnvelope} className='mr-2 text-2xl' />
                             <p className='flex-grow text-center break-words'>
                                 jani.ahlstedt@outlook.com
                             </p>
                         </section>
-                    </button>
+                    </a>
 
                 </div>
             </section>
