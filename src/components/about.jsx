@@ -25,23 +25,32 @@ const About = () => {
                     <div className='w-full'>
                         <section className='p-2 mb-2 border-b border-seaGreen'>
                             <h3 className='mb-2 font-semibold'>Languages</h3>
-                            <div className='flex flex-row flex-wrap'>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>JavaScript</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>HTML</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-yellow-500 shadow-md'>TypeScript</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-yellow-500 shadow-md'>Python</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-orange-500 shadow-md'>Java</p>
+                            <div className='flex flex-row flex-wrap text-softCream '>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>JavaScript</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>HTML</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-yellow-500 shadow-md'>TypeScript</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-yellow-500 shadow-md'>Python</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-orange-500 shadow-md'>Java</p>
                             </div>
                         </section>
 
                         <section className='p-2 mb-2 w-full border-b border-seaGreen'>
                             <h3 className='mb-2 font-semibold'>Technologies</h3>
-                            <div className='flex flex-row flex-wrap'>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>React</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>React Native</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>Vite</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>TailwindCSS</p>
-                                <p className='hover:animate-bounce text-xs font-bold text-softCream mr-2 border-2 border-seaGreen rounded-full p-1 bg-yellow-500 shadow-md'>Expo GO</p>
+                            <div className='flex flex-row flex-wrap text-softCream'>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>React</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>React Native</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>Vite</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>TailwindCSS</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-yellow-500 shadow-md'>Expo GO</p>
+                            </div>
+                        </section>
+
+                        <section className='p-2 mb-2 w-full border-b border-seaGreen'>
+                            <h3 className='mb-2 font-semibold'>Tools</h3>
+                            <div className='flex flex-row flex-wrap text-softCream'>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>VS Code</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>Git</p>
+                                <p className='hover:animate-bounce text-xs font-bold mr-2 border-2 border-seaGreen rounded-full p-1 bg-green-600 shadow-md'>GitHub</p>
                             </div>
                         </section>
 
