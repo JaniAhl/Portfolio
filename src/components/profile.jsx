@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import '../App.css'
-import { faPhone, faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faFilePdf, faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Profile = () => {
 
@@ -28,14 +27,32 @@ const Profile = () => {
 
                     {/* Icons */}
                     <section className='space-x-4 mt-4 flex justify-center md:justify-start'>
-                        <a href='https://www.github.com/JaniAhl' target='_blank' rel='noopener noreferrer'>
-                            <FontAwesomeIcon icon={faSquareGithub} className='text-3xl hover:text-softCream' />
+                        <a href='https://www.github.com/JaniAhl' target='_blank' rel='noopener noreferrer' className='group relative'>
+                            <FontAwesomeIcon icon={faSquareGithub} className='text-3xl' />
+                            <span className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 text-xs text-softCream mt-1'>
+                                GitHub
+                            </span>
                         </a>
-                        <a href='https://www.linkedin.com/in/jani-ahlstedt-4490a82a5/' target='_blank' rel='noopener noreferrer'>
-                            <FontAwesomeIcon icon={faLinkedin} className='text-3xl hover:text-softCream' />
+
+                        <a href='https://www.linkedin.com/in/jani-ahlstedt-4490a82a5/' target='_blank' rel='noopener noreferrer' className='group relative'>
+                            <FontAwesomeIcon icon={faLinkedin} className='text-3xl' />
+                            <span className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 text-xs text-softCream mt-1'>
+                                LinkedIn
+                            </span>
                         </a>
-                        <a href='mailto:jani.ahlstedt@outlook.com'>
-                            <FontAwesomeIcon icon={faSquareEnvelope} className='text-3xl hover:text-softCream' />
+
+                        <a href='mailto:jani.ahlstedt@outlook.com' className='group relative'>
+                            <FontAwesomeIcon icon={faSquareEnvelope} className='text-3xl' />
+                            <span className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 text-xs text-softCream mt-1'>
+                                Email
+                            </span>
+                        </a>
+
+                        <a href='/public/CV_JaniAhlstedtPortfolio.pdf' target='_blank' className='group relative flex items-center'>
+                            <FontAwesomeIcon icon={faFilePdf} className='text-2xl' />
+                            <span className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 text-xs text-softCream mt-1'>
+                                CV
+                            </span>
                         </a>
                     </section>
                 </section>

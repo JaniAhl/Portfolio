@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import '../App.css'
-import { faPhone, faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faEnvelope, faFilePdf } from '@fortawesome/free-regular-svg-icons'
 
 const Contact = () => {
 
@@ -39,6 +38,15 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faEnvelope} className='mr-2 text-2xl' />
                             <p className='flex-grow text-center break-words'>
                                 jani.ahlstedt@outlook.com
+                            </p>
+                        </section>
+                    </a>
+
+                    <a href='/public/CV_JaniAhlstedtPortfolio.pdf' target='_blank' className='rounded-xl border-seaGreen border-2 p-1 w-3/4 text-seaGreen hover:bg-seaGreen hover:text-softCream'>
+                        <section className='flex flex-row items-center overflow-hidden'>
+                            <FontAwesomeIcon icon={faFilePdf} className='mr-2 text-2xl' />
+                            <p className='flex-grow text-center break-words'>
+                                CV
                             </p>
                         </section>
                     </a>
