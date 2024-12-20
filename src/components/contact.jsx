@@ -11,7 +11,7 @@ const Contact = () => {
 
             {/* Contact */}
 
-            <h1 className='text-2xl font-bold mt-4 text-seaGreen'>CONTACT</h1 >
+            <h1 className='text-2xl font-bold mt-4 text-seaGreen pl-1'>CONTACT</h1 >
 
             <section className='w-full bg-softCream p-4 text-seaGreen rounded-xl my-4 shadow-md border-2 border-seaGreen'>
 

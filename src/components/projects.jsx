@@ -11,7 +11,7 @@ const Projects = () => {
         <div id='projects' className='w-full text-left'>
 
             {/* Projects */}
-            <h1 className='text-2xl font-bold mt-4 text-seaGreen'> PROJECTS</h1 >
+            <h1 className='text-2xl font-bold mt-4 text-seaGreen pl-1'> PROJECTS</h1 >
 
             <section className='w-full bg-softCream p-4 text-seaGreen rounded-xl my-4 shadow-md border-2 border-seaGreen'>
 

@@ -6,7 +6,7 @@ const About = () => {
 
         <div id='about' className='w-full text-left'>
 
-            <h1 className='text-2xl font-bold mt-4 text-seaGreen'>ABOUT</h1 >
+            <h1 className='text-2xl font-bold mt-4 text-seaGreen pl-1'>ABOUT</h1 >
 
             <section className='w-full bg-softCream p-4 text-seaGreen rounded-xl my-4 shadow-md border-2 border-seaGreen'>
                 <div className='border-b border-seaGreen pb-4'>
